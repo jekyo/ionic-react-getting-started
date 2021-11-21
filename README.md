@@ -76,6 +76,14 @@ Navigate to your local Ionic React app directory
 
 Initialize a git repository if you haven't already done so by running `git init`. 
 
+### Edit package.json
+
+Your start line in scripts should look like this: 
+
+```
+"start": "HOST=$HOST PORT=$PORT react-scripts start",
+```
+
 ### Create an empty Jekyo app:
 
 `jekyo create` 
